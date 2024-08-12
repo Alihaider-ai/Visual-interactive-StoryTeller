@@ -11,7 +11,7 @@ setup_logging()
 
 # Initialize LLaMA3 model with LangChain
 local_llm = 'llama3'
-llm = ChatOllama(model=local_llm,base_url='http://192.192.8.114:11434', keep_alive="-1", max_tokens=3000, temperature=0)
+llm = ChatOllama(model=local_llm, keep_alive="-1", max_tokens=3000, temperature=0)
 
 # Create prompt templates
 story_template = """Based solely on the provided caption, please generate a detailed and engaging story.
