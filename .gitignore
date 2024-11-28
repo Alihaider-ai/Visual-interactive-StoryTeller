@@ -1,0 +1,5 @@
+
+.env
+.gradio/certificate.pem
+/config/__pycache__
+/storyteller/__pycache__
