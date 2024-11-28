@@ -1,6 +1,5 @@
 
+.env
+.gradio/certificate.pem
 /config/__pycache__
 /storyteller/__pycache__
-
-app.log
-app.log
